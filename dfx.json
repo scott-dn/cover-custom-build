@@ -4,7 +4,7 @@
   "canisters": {
     "custom_build": {
       "candid": "custom_build.did",
-      "wasm": "target/wasm33-unknown-unknown/release/custom_build.wasm",
+      "wasm": "target/wasm32-unknown-unknown/release/custom_build.wasm",
       "build": "./build.sh",
       "type": "custom"
     }
