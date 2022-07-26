@@ -3,10 +3,9 @@
   "dfx": "0.11.0",
   "canisters": {
     "custom_build": {
-      "build": "./build.sh",
+      "package": "custom_build",
       "candid": "custom_build.did",
-      "wasm": "target/wasm32-unknown-unknown/release/custom_build.wasm",
-      "type": "custom"
+      "type": "rust"
     }
   },
   "defaults": {
