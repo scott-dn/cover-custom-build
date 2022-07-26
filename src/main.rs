@@ -3,8 +3,8 @@ use ic_cdk::export::candid::candid_method;
 
 #[query]
 #[candid_method(query)]
-fn hello() -> &'static str {
-    "hello world"
+fn hello() -> u8 {
+    1
 }
 
 #[cfg(any(target_arch = "wasm32"))]
