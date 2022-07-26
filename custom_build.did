@@ -1,1 +1,1 @@
-service : { hello : () -> (nat8) query }
+service : { hello : () -> (text) query }
