@@ -4,3 +4,5 @@ use ic_cdk_macros::query;
 fn hello() -> &'static str {
     "hello world"
 }
+
+fn main() {}
