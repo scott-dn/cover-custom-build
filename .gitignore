@@ -1,0 +1,11 @@
+/.dfx
+/.idea
+**/target
+
+# misc
+.DS_Store
+
+*.log
+/tmp/**/**
+
+**/.vim/

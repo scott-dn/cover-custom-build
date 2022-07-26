@@ -1,0 +1,12 @@
+[package]
+name = "custom_build"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.140"
+candid = "0.7.15"
+ic-cdk = "0.5.5"
+ic-cdk-macros = "0.5.5"
