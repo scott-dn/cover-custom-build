@@ -16,7 +16,7 @@ RUN curl --fail https://sh.rustup.rs/ -sSf \
     rustup default ${rust_version}-x86_64-unknown-linux-gnu && \
     rustup target add wasm32-unknown-unknown
 
-# RUN cargo install ic-cdk-optimizer
+RUN cargo install ic-cdk-optimizer
 
 # Install dfx; the version is picked up from the DFX_VERSION environment variable
 # Replace your dfx version here
