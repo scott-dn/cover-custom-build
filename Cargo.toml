@@ -10,3 +10,6 @@ serde = "1.0.140"
 candid = "0.7.15"
 ic-cdk = "0.5.5"
 ic-cdk-macros = "0.5.5"
+
+[lib]
+crate-type=['cdylib']
