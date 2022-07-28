@@ -23,3 +23,5 @@ RUN cargo install ic-cdk-optimizer
 ENV DFX_VERSION=0.11.0
 RUN sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
 
+COPY . /canister
+WORKDIR /canister
